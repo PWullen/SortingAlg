@@ -24,7 +24,8 @@ void rotation(char *input[]){ //used in part of circular_rotation
 
 int main(int argc, char *argv[]) {
     FILE* standardin = stdin; //set stream
-    std::string *user_in;//using string pointer
+    char* user_in; //in response to string pointer not working with gradescope -- adjusted to char pointer.
+    //std::string *user_in;//using string pointer
     if (argc<2){ //if no insertion or merge
         std::cout << "Parameter Format error"; //simple error protocol for self check
     }
