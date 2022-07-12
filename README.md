@@ -1,2 +1,2 @@
-# 310p1
-C/C++ encoding via Insertion/Merge
+# Sorting Algorithm Encoding
+C/C++ encoding via Insertion and Merge Sort Algorithms
